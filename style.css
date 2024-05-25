@@ -4,12 +4,12 @@
   justify-content: flex-end;
   color: white;
 }
-body{
+.main{
   font-family: "Noto Sans JP", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  color: white;
+  color: #ffffff;
   background-color: black;
-  background-image: url("https://naochan83275.github.io/dash/image/IMG_0260.jpeg");
+  background-image: url("https://raw.githubusercontent.com/naochan83275/dash/main/image/IMG_0260.jpeg");
 }
