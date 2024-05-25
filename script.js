@@ -4,8 +4,8 @@ function showClock() {
   let nowMin  = nowTime.getMinutes();
   let nowSec  = nowTime.getSeconds();
   let time = nowHour + ":" + nowMin;
-  let timesec = "(" + nowSec + ")"
+  let sec = "(" + nowSec + ")"
   document.getElementById("time").innerHTML = time;
-  document.getElementById("sec").innerHTML = timesec;
+  document.getElementById("timesec").innerHTML = sec;
 }
 setInterval('showClock()',1000);
